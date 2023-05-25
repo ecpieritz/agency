@@ -18,6 +18,7 @@
 - HTML
 - Typescript
 - Bootstrap
+- Font Awesome
 
 ---
 
