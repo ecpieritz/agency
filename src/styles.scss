@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 // COLORS
+$da-cyan-lg: #86d2e6;
 $da-cyan: #52D0F0;
-$da-cyan-dk: #1b677a;
+$da-cyan-dk: #0d5364;
 $da-text: #cccccc;
+$da-text-dk: #191919;
 $da-bg: #191919;
 
 *{
@@ -18,29 +20,41 @@ body{
 // TEXT
 h1{
   line-height: 1.4;
-  font-size: 40px;
+  font-size: 80px;
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 h2{
   line-height: 1.4;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 h3{
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 30px;
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 h4{
   line-height: 1.4;
   font-size: 18px;
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 p{
   font-size: 18px;
+  margin: 0;
+}
+
+// HR
+.da-hr{
+  height: 3px;
+  background-color: $da-cyan;
+  border-color: $da-cyan;
   margin: 0;
 }
