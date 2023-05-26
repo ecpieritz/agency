@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './header/navbar/navbar.component';
 import { BannerComponent } from './header/banner/banner.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavbarComponent,
-    BannerComponent
+    BannerComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
