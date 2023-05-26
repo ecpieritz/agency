@@ -4,9 +4,9 @@
 $da-cyan-lg: #86d2e6;
 $da-cyan: #52D0F0;
 $da-cyan-dk: #0d5364;
-$da-text: #cccccc;
-$da-text-dk: #191919;
-$da-bg: #191919;
+$da-text: #ffffff;
+$da-text-dk: #000000;
+$da-bg: #000000;
 
 *{
   font-family: 'Poppins', sans-serif;
@@ -27,21 +27,21 @@ h1{
 
 h2{
   line-height: 1.4;
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 50px;
   font-weight: 700;
 }
 
 h3{
   line-height: 1.4;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 30px;
   font-weight: 700;
 }
 
 h4{
   line-height: 1.4;
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 30px;
   font-weight: 700;
 }
@@ -57,4 +57,15 @@ p{
   background-color: $da-cyan;
   border-color: $da-cyan;
   margin: 0;
+}
+
+// TITLE BLOCK
+.da-title{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  h4{
+    color: $da-cyan;
+    margin-bottom: 20px;
+  }
 }
