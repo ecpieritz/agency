@@ -1,0 +1,24 @@
+@import '../../../styles.scss';
+
+.da-services__design{
+  padding: 160px 0;
+
+  &__topic{
+    margin-bottom: 30px;
+    &__img{
+      text-align: center;
+      fa-icon{
+        font-size: 100px !important;
+        color: #0d5364;
+      }
+    }
+
+    &__text{
+      padding-right: 40px;
+    }
+  }
+
+  h3{
+    margin:20px 0 10px;
+  }
+}
