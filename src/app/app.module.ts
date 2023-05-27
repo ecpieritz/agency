@@ -10,6 +10,7 @@ import { ServicesComponent } from './services/services.component';
 import { CardsComponent } from './services/cards/cards.component';
 import { DesignComponent } from './services/design/design.component';
 import { AboutComponent } from './about/about.component';
+import { WebTrafficComponent } from './about/web-traffic/web-traffic.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutComponent } from './about/about.component';
     ServicesComponent,
     CardsComponent,
     DesignComponent,
-    AboutComponent
+    AboutComponent,
+    WebTrafficComponent
   ],
   imports: [
     BrowserModule,
