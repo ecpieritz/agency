@@ -6,7 +6,7 @@ $da-cyan: #52D0F0;
 $da-cyan-dk: #0d5364;
 $da-text: #ffffff;
 $da-text-dk: #000000;
-$da-bg: #000000;
+$da-bg: #03252e;
 
 *{
   font-family: 'Poppins', sans-serif;
@@ -46,6 +46,13 @@ h4{
   font-weight: 700;
 }
 
+h5{
+  line-height: 1.4;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
 p{
   font-size: 18px;
   margin: 0;
@@ -67,5 +74,20 @@ p{
   h4{
     color: $da-cyan;
     margin-bottom: 20px;
+  }
+}
+
+// BUTTONS
+.btn{
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  &.btn-cyan{
+    background-color: $da-cyan;
+    color: $da-text-dk;
+    &:hover{
+      background-color: $da-cyan-dk;
+      color: $da-text;
+    }
   }
 }
