@@ -7,6 +7,7 @@ import { NavbarComponent } from './header/navbar/navbar.component';
 import { BannerComponent } from './header/banner/banner.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServicesComponent } from './services/services.component';
+import { CardsComponent } from './services/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ServicesComponent } from './services/services.component';
     HeaderComponent,
     NavbarComponent,
     BannerComponent,
-    ServicesComponent
+    ServicesComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
