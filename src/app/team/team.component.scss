@@ -1,0 +1,17 @@
+@import '../../styles.scss';
+
+.da-team{
+  padding: 160px 0 0;
+  .da-title{
+    width: 50%;
+  }
+
+  &__person{
+    margin-bottom: 25px;
+    img{
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+  }
+}
