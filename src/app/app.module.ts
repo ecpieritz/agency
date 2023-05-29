@@ -11,6 +11,8 @@ import { CardsComponent } from './services/cards/cards.component';
 import { DesignComponent } from './services/design/design.component';
 import { AboutComponent } from './about/about.component';
 import { WebTrafficComponent } from './about/web-traffic/web-traffic.component';
+import { WebServicesComponent } from './about/web-services/web-services.component';
+import { OurVisionComponent } from './about/our-vision/our-vision.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { WebTrafficComponent } from './about/web-traffic/web-traffic.component';
     CardsComponent,
     DesignComponent,
     AboutComponent,
-    WebTrafficComponent
+    WebTrafficComponent,
+    WebServicesComponent,
+    OurVisionComponent
   ],
   imports: [
     BrowserModule,
