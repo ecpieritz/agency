@@ -5,4 +5,20 @@
   .da-title{
     width: 60%;
   }
+  &__img{
+    img{
+      width: 80%;
+    }
+  }
+  &__text{
+    margin-top: 60px;
+    h5{
+      color: $da-cyan;
+    }
+
+    a{
+      margin-top: 60px;
+    }
+
+  }
 }
