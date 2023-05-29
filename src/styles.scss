@@ -91,3 +91,21 @@ p{
     }
   }
 }
+
+// LISTS
+.da-list{
+  &__check{
+    list-style: none;
+      li {
+        margin-bottom: 20px;
+        &::before {
+          content: "\2713";
+          color: $da-text;
+          font-weight: bold;
+          display: inline-block;
+          width: 1.5em;
+          margin-left: -1.5em;
+        }
+      }
+  }
+}
