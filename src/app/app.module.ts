@@ -13,6 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { WebTrafficComponent } from './about/web-traffic/web-traffic.component';
 import { WebServicesComponent } from './about/web-services/web-services.component';
 import { OurVisionComponent } from './about/our-vision/our-vision.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { OurVisionComponent } from './about/our-vision/our-vision.component';
     AboutComponent,
     WebTrafficComponent,
     WebServicesComponent,
-    OurVisionComponent
+    OurVisionComponent,
+    PortfolioComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,
