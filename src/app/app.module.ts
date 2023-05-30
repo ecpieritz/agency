@@ -15,6 +15,7 @@ import { WebServicesComponent } from './about/web-services/web-services.componen
 import { OurVisionComponent } from './about/our-vision/our-vision.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { TeamComponent } from './team/team.component';
     OurVisionComponent,
     PortfolioComponent,
     TeamComponent,
+    TestimonialComponent,
   ],
   imports: [
     BrowserModule,
