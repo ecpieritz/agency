@@ -109,3 +109,12 @@ p{
       }
   }
 }
+
+// COLORS
+.da-color{
+  &__text{
+    &__cyan-dk{
+      color: $da-cyan-dk;
+    }
+  }
+}
