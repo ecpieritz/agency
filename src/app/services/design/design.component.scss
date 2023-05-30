@@ -21,4 +21,17 @@
   h3{
     margin:20px 0 10px;
   }
+
+  @media(max-width: 780px){
+    padding: 80px 0 0;
+    .da-title{
+      width: 100%;
+    }
+    &__topic{
+      &__text{
+        padding-right: 10px;
+        text-align: center;
+      }
+    }
+  }
 }

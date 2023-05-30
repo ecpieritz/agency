@@ -1,2 +1,8 @@
 @import '../../../styles.scss';
-@import '../about.component.scss'
+@import '../about.component.scss';
+
+
+.row{
+  display: flex;
+  flex-direction: column-reverse;
+}

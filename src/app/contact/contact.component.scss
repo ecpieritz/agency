@@ -17,4 +17,14 @@
   .btn-cyan{
     padding: 10px 50px;
   }
+
+  @media(max-width: 780px){
+    padding: 80px 0 0;
+    .container{
+      background-image: none;
+    }
+    .da-title{
+      width: 100%;
+    }
+  }
 }

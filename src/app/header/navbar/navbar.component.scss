@@ -12,4 +12,14 @@
 
     }
   }
+
+  @media(max-width: 780px){
+    display: flex;
+    flex-direction: column;
+
+    .justify-content-end{
+      justify-content: center !important;
+
+    }
+  }
 }

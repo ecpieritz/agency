@@ -8,4 +8,10 @@
   h3{
     margin:20px 0 10px;
   }
+
+  @media(max-width: 780px){
+    img{
+      margin-top: 30px;
+    }
+  }
 }
