@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "702" height = "auto">
-  <img src = "x" width = "351" height = "auto">
-  <img src = "x" width = "351" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/digital-agency/eddde64a576df6da876f95b32ebf4e77d0c9b913/src/assets/img/da-print__01.jpg" width = "702" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/digital-agency/eddde64a576df6da876f95b32ebf4e77d0c9b913/src/assets/img/da-print__02.jpg" width = "351" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/digital-agency/eddde64a576df6da876f95b32ebf4e77d0c9b913/src/assets/img/da-print__03.jpg" width = "351" height = "auto">
 </p>
 
 ## 📖 About
