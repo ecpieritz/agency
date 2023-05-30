@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+
+.da-contact{
+  padding: 160px 0 80px;
+  .container{
+    padding: 40px;
+    background-image: url(../../assets/img/da-contact__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .da-title{
+    width: 80%;
+    text-align: left;
+  }
+
+  .btn-cyan{
+    padding: 10px 50px;
+  }
+}
