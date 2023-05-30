@@ -17,6 +17,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ContactComponent } from './contact/contact.component';
     TeamComponent,
     TestimonialComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
