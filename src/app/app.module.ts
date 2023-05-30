@@ -16,6 +16,7 @@ import { OurVisionComponent } from './about/our-vision/our-vision.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     PortfolioComponent,
     TeamComponent,
     TestimonialComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
