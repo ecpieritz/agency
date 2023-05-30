@@ -1,0 +1,40 @@
+@import '../../styles.scss';
+
+.da-footer{
+  background-color: $da-cyan-dk;
+  width: 100%;
+  padding: 40px 10%;
+
+  &__logo{
+    img{
+      width: 250px;
+    }
+  }
+
+  &__links{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    a{
+      color: $da-cyan;
+      text-decoration: none;
+
+      &:first-child{
+        margin-bottom: 20px;
+      }
+
+      &:hover{
+        color: $da-cyan-lg;
+      }
+    }
+  }
+
+  &__made-by{
+    margin-top: 25px;
+    text-align: center;
+    p{
+      font-size: 16px;
+
+    }
+  }
+}
